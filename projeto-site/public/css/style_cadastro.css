@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap');
+
+a{
+    text-decoration: none;
+    color: var(--color-five);
+}
+body{
+    padding: 0%;
+    margin: 0%;
+    background-color: var(--color-one);
+    font-family: 'Raleway', sans-serif;
+}
+
+:root {
+    --color-one: #e7e7de;
+    --color-two: #008891;
+    --color-three: #00587a;
+    --color-four: #0f3057;
+    --color-five: #000000;
+
+    --color-six: #0087919f;
+    --color-seven: #e7e7de80;
+}
+
+/*--------------------------------------------- começo da barra de menu */
+
+header{
+    border-bottom: 1px solid var(--color-one);
+}
+.logo {
+    max-width: 15%;
+    width: auto;
+    max-height: 100%;
+    height: auto;
+}
+.header-logo{
+    max-width: 100%;
+    width: auto;
+    max-height: 100%;
+    height: auto;
+}
+.header-content{
+    padding: 2% 15% 2% 15%;
+    display: flex;
+    justify-content: space-between;
+}
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+}
+.header-nav a{
+    margin-left: -50%;
+}
+.header-nav a:hover{
+    margin-left: -50%;
+    color: var(--color-two);
+    font-weight: bold;
+}
+.active{
+    color: var(--color-two);
+    font-weight: bold;
+}
+
+/* ---------------------------------------------------- CURVAS */
+
+.custom-shape-divider-top-1618776263 {
+    position: absolute;
+    top: 86px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1618776263 svg {
+    position: relative;
+    display: block;
+    width: calc(134% + 1.3px);
+    height: 24px;
+}
+
+.custom-shape-divider-top-1618776263 .shape-fill {
+    fill: var(--color-one);
+}
+
+
+
+
+/* --------------------------------------------------- conteudo da pagina */
+.box-login p {
+    margin: 0px;
+}
+.container {
+    overflow: auto;
+    padding-bottom: 63px;
+}
+.btn {
+    width: 100px;
+    background: var(--color-one);
+    color: var(--color-two);
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    float: left;
+}
+.btn:hover {
+    width: 100px;
+    background: var(--color-two);
+    color: var(--color-one);
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.input-padrao {
+    background-color: var(--color-six);
+    width: 100%;
+    padding: 5px 0;
+    font-size: 12px;
+    margin: 15px 0;
+    border: none;
+    border-bottom: 2px solid var(--color-two);
+    outline: none;
+    resize: none;
+    text-align: center;
+}
+input {
+    color: var(--color-one);
+}
+
+.pag-login {
+    background-image: url("../imagens/cadastro.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 5%;
+    text-align: center;
+}
+#img_aguarde {
+    margin-left: 36%;
+}
+
+
+.pag-login h1 {
+    margin-bottom: 40px;
+    color: var(--color-one);
+}
+
+.pag-login .input-padrao {
+    width: 50%;
+    display: inline-block;
+    border-radius: 20px;
+}
+.box-login {
+    display: inline-block;
+    background-color: var(--color-six);
+    box-shadow:  3px 3px 5px 2px var(--color-seven);
+    padding: 60px 20px 35px 20px;
+    width: 400px;
+    border-radius: 80px;
+    align-items: center;
+}
+.pag-login .btn {
+    display: block;
+    float: none;
+    margin: auto;
+    border-radius: 5px;
+}
+
+::-webkit-input-placeholder {
+    color: var(--color-seven);
+    text-align: center;
+}
+ :-moz-placeholder {
+    color: var(--color-seven);
+}
+::-moz-placeholder {
+    color: var(--color-seven);
+}
+:-ms-input-placeholder {  
+    color: var(--color-seven);
+}
+
+/* ----------------------------------------------------  CURVAS */
+
+.custom-shape-divider-bottom-1618773776 {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    margin-top: -10%;
+}
+
+.custom-shape-divider-bottom-1618773776 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 130px;
+}
+
+.custom-shape-divider-bottom-1618773776 .shape-fill {
+    fill: var(--color-two);
+}
+
+
+/* ---------------------------------------------------------------------------- inicio footer */
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2%;
+    background: var(--color-two);
+}
+
+.footer img{
+    width: 5%;
+    display: flex;
+    position: absolute;
+    left: 0;
+    z-index: 100;
+    margin-left: 3%;
+}
+
+#github-icon{
+    width: 5%;
+    display: flex;
+    position: absolute;
+    left: 90%;
+    z-index: 100;
+    margin-right: 3%;
+}
+
+/* ------------------------------------------------------------------------------------------ */
